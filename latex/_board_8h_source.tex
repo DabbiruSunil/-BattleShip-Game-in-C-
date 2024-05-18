@@ -1,0 +1,39 @@
+\doxysection{Board.\+h}
+\hypertarget{_board_8h_source}{}\label{_board_8h_source}\index{myCode/Board.h@{myCode/Board.h}}
+\mbox{\hyperlink{_board_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{comment}{/*}}
+\DoxyCodeLine{00002\ \textcolor{comment}{\ *\ Board.h}}
+\DoxyCodeLine{00003\ \textcolor{comment}{\ *}}
+\DoxyCodeLine{00004\ \textcolor{comment}{\ *\ Created\ on:\ 03-\/Jan-\/2024}}
+\DoxyCodeLine{00005\ \textcolor{comment}{\ *\ Author:\ Dabbiru\ Sunil}}
+\DoxyCodeLine{00006\ \textcolor{comment}{\ */}}
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#ifndef\ BOARD\_H\_}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#define\ BOARD\_H\_}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_own_grid_8h}{OwnGrid.h}}"{}}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_opponent_grid_8h}{OpponentGrid.h}}"{}}}
+\DoxyCodeLine{00013\ }
+\DoxyCodeLine{00018\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_board}{Board}}}
+\DoxyCodeLine{00019\ \{}
+\DoxyCodeLine{00020\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00021\ \ \ \ \ \mbox{\hyperlink{class_own_grid}{OwnGrid}}\ \mbox{\hyperlink{class_board_a22ac357c3cd421a96886a68a1644e518}{ownGrid}};\ }
+\DoxyCodeLine{00022\ \ \ \ \ \mbox{\hyperlink{class_opponent_grid}{OpponentGrid}}\ \mbox{\hyperlink{class_board_a8c31d69a77284411c6a019e09fb7de02}{opponentGrid}};\ }
+\DoxyCodeLine{00024\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00034\ \ \ \ \ \mbox{\hyperlink{class_board}{Board}}(\textcolor{keywordtype}{int}\ rows,\ \textcolor{keywordtype}{int}\ columns);}
+\DoxyCodeLine{00035\ }
+\DoxyCodeLine{00042\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_board_ab62db5471cc3c497e03d8d2dcd5e0807}{getRows}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00043\ }
+\DoxyCodeLine{00050\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_board_a7ed6b73235c95ac123c8eddb35e015af}{getColumns}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00051\ }
+\DoxyCodeLine{00057\ \ \ \ \ \mbox{\hyperlink{class_own_grid}{OwnGrid}}\&\ \mbox{\hyperlink{class_board_a0d975795db53917d0ef1fae0352bdf4c}{getOwnGrid}}();}
+\DoxyCodeLine{00058\ }
+\DoxyCodeLine{00064\ \ \ \ \ \mbox{\hyperlink{class_opponent_grid}{OpponentGrid}}\&\ \mbox{\hyperlink{class_board_af86e9399a067abdc7fc5ea95df8ff796}{getOpponentGrid}}();}
+\DoxyCodeLine{00065\ }
+\DoxyCodeLine{00069\ \ \ \ \ \textcolor{keyword}{virtual}\ \mbox{\hyperlink{class_board_af73f45730119a1fd8f6670f53f959e68}{\string~Board}}();}
+\DoxyCodeLine{00070\ \};}
+\DoxyCodeLine{00071\ }
+\DoxyCodeLine{00072\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ BOARD\_H\_\ */}\textcolor{preprocessor}{}}
+
+\end{DoxyCode}

@@ -1,0 +1,152 @@
+\doxysection{Board Class Reference}
+\hypertarget{class_board}{}\label{class_board}\index{Board@{Board}}
+
+
+The \doxylink{class_board}{Board} class represents the game board, containing both the player\textquotesingle{}s own grid and the opponent\textquotesingle{}s grid.  
+
+
+
+
+{\ttfamily \#include $<$Board.\+h$>$}
+
+
+
+Collaboration diagram for Board\+:
+% FIG 0
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_board_a921efabcf4296a12272eb96f5a1507b4}{Board}} (int rows, int columns)
+\begin{DoxyCompactList}\small\item\em Constructor for the \doxylink{class_board}{Board} class. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_board_ab62db5471cc3c497e03d8d2dcd5e0807}{get\+Rows}} () const
+\begin{DoxyCompactList}\small\item\em Getter function to retrieve the number of rows in the board\textquotesingle{}s own\+Grid. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_board_a7ed6b73235c95ac123c8eddb35e015af}{get\+Columns}} () const
+\begin{DoxyCompactList}\small\item\em Getter function to retrieve the number of columns in the board\textquotesingle{}s own\+Grid. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_own_grid}{Own\+Grid}} \& \mbox{\hyperlink{class_board_a0d975795db53917d0ef1fae0352bdf4c}{get\+Own\+Grid}} ()
+\begin{DoxyCompactList}\small\item\em Getter function to access the board\textquotesingle{}s own\+Grid. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_opponent_grid}{Opponent\+Grid}} \& \mbox{\hyperlink{class_board_af86e9399a067abdc7fc5ea95df8ff796}{get\+Opponent\+Grid}} ()
+\begin{DoxyCompactList}\small\item\em Getter function to access the board\textquotesingle{}s opponent\+Grid. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{class_board_af73f45730119a1fd8f6670f53f959e68}{\texorpdfstring{$\sim$}{\string~}\+Board}} ()
+\begin{DoxyCompactList}\small\item\em Destructor for the \doxylink{class_board}{Board} class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_own_grid}{Own\+Grid}} \mbox{\hyperlink{class_board_a22ac357c3cd421a96886a68a1644e518}{own\+Grid}}
+\item 
+\mbox{\hyperlink{class_opponent_grid}{Opponent\+Grid}} \mbox{\hyperlink{class_board_a8c31d69a77284411c6a019e09fb7de02}{opponent\+Grid}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The \doxylink{class_board}{Board} class represents the game board, containing both the player\textquotesingle{}s own grid and the opponent\textquotesingle{}s grid. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_board_a921efabcf4296a12272eb96f5a1507b4}\label{class_board_a921efabcf4296a12272eb96f5a1507b4} 
+\index{Board@{Board}!Board@{Board}}
+\index{Board@{Board}!Board@{Board}}
+\doxysubsubsection{\texorpdfstring{Board()}{Board()}}
+{\footnotesize\ttfamily Board\+::\+Board (\begin{DoxyParamCaption}\item[{int}]{rows,  }\item[{int}]{columns }\end{DoxyParamCaption})}
+
+
+
+Constructor for the \doxylink{class_board}{Board} class. 
+
+Initializes own\+Grid and opponent\+Grid with the specified number of rows and columns.
+
+
+\begin{DoxyParams}{Parameters}
+{\em rows} & The number of rows for the grids. \\
+\hline
+{\em columns} & The number of columns for the grids. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_board_af73f45730119a1fd8f6670f53f959e68}\label{class_board_af73f45730119a1fd8f6670f53f959e68} 
+\index{Board@{Board}!````~Board@{\texorpdfstring{$\sim$}{\string~}Board}}
+\index{````~Board@{\texorpdfstring{$\sim$}{\string~}Board}!Board@{Board}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Board()}{\string~Board()}}
+{\footnotesize\ttfamily Board\+::\texorpdfstring{$\sim$}{\string~}\+Board (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Destructor for the \doxylink{class_board}{Board} class. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_board_a7ed6b73235c95ac123c8eddb35e015af}\label{class_board_a7ed6b73235c95ac123c8eddb35e015af} 
+\index{Board@{Board}!getColumns@{getColumns}}
+\index{getColumns@{getColumns}!Board@{Board}}
+\doxysubsubsection{\texorpdfstring{getColumns()}{getColumns()}}
+{\footnotesize\ttfamily int Board\+::get\+Columns (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Getter function to retrieve the number of columns in the board\textquotesingle{}s own\+Grid. 
+
+\begin{DoxyReturn}{Returns}
+The number of columns in own\+Grid. 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 1
+\Hypertarget{class_board_af86e9399a067abdc7fc5ea95df8ff796}\label{class_board_af86e9399a067abdc7fc5ea95df8ff796} 
+\index{Board@{Board}!getOpponentGrid@{getOpponentGrid}}
+\index{getOpponentGrid@{getOpponentGrid}!Board@{Board}}
+\doxysubsubsection{\texorpdfstring{getOpponentGrid()}{getOpponentGrid()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_opponent_grid}{Opponent\+Grid}} \& Board\+::get\+Opponent\+Grid (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Getter function to access the board\textquotesingle{}s opponent\+Grid. 
+
+\begin{DoxyReturn}{Returns}
+A reference to the opponent\+Grid of the board. 
+\end{DoxyReturn}
+\Hypertarget{class_board_a0d975795db53917d0ef1fae0352bdf4c}\label{class_board_a0d975795db53917d0ef1fae0352bdf4c} 
+\index{Board@{Board}!getOwnGrid@{getOwnGrid}}
+\index{getOwnGrid@{getOwnGrid}!Board@{Board}}
+\doxysubsubsection{\texorpdfstring{getOwnGrid()}{getOwnGrid()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_own_grid}{Own\+Grid}} \& Board\+::get\+Own\+Grid (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Getter function to access the board\textquotesingle{}s own\+Grid. 
+
+\begin{DoxyReturn}{Returns}
+A reference to the own\+Grid of the board. 
+\end{DoxyReturn}
+\Hypertarget{class_board_ab62db5471cc3c497e03d8d2dcd5e0807}\label{class_board_ab62db5471cc3c497e03d8d2dcd5e0807} 
+\index{Board@{Board}!getRows@{getRows}}
+\index{getRows@{getRows}!Board@{Board}}
+\doxysubsubsection{\texorpdfstring{getRows()}{getRows()}}
+{\footnotesize\ttfamily int Board\+::get\+Rows (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Getter function to retrieve the number of rows in the board\textquotesingle{}s own\+Grid. 
+
+\begin{DoxyReturn}{Returns}
+The number of rows in own\+Grid. 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 2
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_board_a8c31d69a77284411c6a019e09fb7de02}\label{class_board_a8c31d69a77284411c6a019e09fb7de02} 
+\index{Board@{Board}!opponentGrid@{opponentGrid}}
+\index{opponentGrid@{opponentGrid}!Board@{Board}}
+\doxysubsubsection{\texorpdfstring{opponentGrid}{opponentGrid}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_opponent_grid}{Opponent\+Grid}} Board\+::opponent\+Grid\hspace{0.3cm}{\ttfamily [private]}}
+
+The opponent\textquotesingle{}s grid. \Hypertarget{class_board_a22ac357c3cd421a96886a68a1644e518}\label{class_board_a22ac357c3cd421a96886a68a1644e518} 
+\index{Board@{Board}!ownGrid@{ownGrid}}
+\index{ownGrid@{ownGrid}!Board@{Board}}
+\doxysubsubsection{\texorpdfstring{ownGrid}{ownGrid}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_own_grid}{Own\+Grid}} Board\+::own\+Grid\hspace{0.3cm}{\ttfamily [private]}}
+
+The player\textquotesingle{}s own grid. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+my\+Code/\mbox{\hyperlink{_board_8h}{Board.\+h}}\item 
+my\+Code/\mbox{\hyperlink{_board_8cpp}{Board.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,196 @@
+\doxysection{Ship Class Reference}
+\hypertarget{class_ship}{}\label{class_ship}\index{Ship@{Ship}}
+
+
+Class representing a \doxylink{class_ship}{Ship} in the game.  
+
+
+
+
+{\ttfamily \#include $<$Ship.\+h$>$}
+
+
+
+Collaboration diagram for Ship\+:
+% FIG 0
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_ship_a2601bfc0fec82eec76afef657b0ba035}{Ship}} (const \mbox{\hyperlink{class_grid_position}{Grid\+Position}} \&\mbox{\hyperlink{class_ship_a31b03536f7b5c880ebcf3115d7221c7a}{bow}}, const \mbox{\hyperlink{class_grid_position}{Grid\+Position}} \&\mbox{\hyperlink{class_ship_adabece62035d169d41483d40255b30a2}{stern}})
+\begin{DoxyCompactList}\small\item\em Constructor for the \doxylink{class_ship}{Ship} class. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_ship_aca8795b8400236c49c6dd8de36abd767}{is\+Valid}} () const
+\begin{DoxyCompactList}\small\item\em Checks if the ship is valid. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_ship_af1d2980cb6973d6370ab48ec50cea42c}{length}} () const
+\begin{DoxyCompactList}\small\item\em Calculates the length of the ship. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_grid_position}{Grid\+Position}} \mbox{\hyperlink{class_ship_a1ee62ed4eab857250181ad6dd129936f}{get\+Bow}} () const
+\begin{DoxyCompactList}\small\item\em Gets the bow position of the ship. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_grid_position}{Grid\+Position}} \mbox{\hyperlink{class_ship_a06d805506287412caa3874f133493fb0}{get\+Stern}} () const
+\begin{DoxyCompactList}\small\item\em Gets the stern position of the ship. \end{DoxyCompactList}\item 
+std\+::set$<$ \mbox{\hyperlink{class_grid_position}{Grid\+Position}} $>$ \mbox{\hyperlink{class_ship_a86123be99e8d177bf905681326063a18}{occupied\+Area}} () const
+\begin{DoxyCompactList}\small\item\em Calculates the set of positions occupied by the ship. \end{DoxyCompactList}\item 
+std\+::set$<$ \mbox{\hyperlink{class_grid_position}{Grid\+Position}} $>$ \mbox{\hyperlink{class_ship_ad8a910bb30074025413cd149777bd606}{blocked\+Area}} () const
+\begin{DoxyCompactList}\small\item\em Calculates the set of positions blocked by the ship. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_ship_a43cd6eeaffc11b49239b091621963a65}{\texorpdfstring{$\sim$}{\string~}\+Ship}} ()
+\begin{DoxyCompactList}\small\item\em Destructor for the \doxylink{class_ship}{Ship} class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_grid_position}{Grid\+Position}} \mbox{\hyperlink{class_ship_a31b03536f7b5c880ebcf3115d7221c7a}{bow}}
+\begin{DoxyCompactList}\small\item\em The bow position of the ship. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_grid_position}{Grid\+Position}} \mbox{\hyperlink{class_ship_adabece62035d169d41483d40255b30a2}{stern}}
+\begin{DoxyCompactList}\small\item\em The stern position of the ship. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class representing a \doxylink{class_ship}{Ship} in the game. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_ship_a2601bfc0fec82eec76afef657b0ba035}\label{class_ship_a2601bfc0fec82eec76afef657b0ba035} 
+\index{Ship@{Ship}!Ship@{Ship}}
+\index{Ship@{Ship}!Ship@{Ship}}
+\doxysubsubsection{\texorpdfstring{Ship()}{Ship()}}
+{\footnotesize\ttfamily Ship\+::\+Ship (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_grid_position}{Grid\+Position}} \&}]{bow,  }\item[{const \mbox{\hyperlink{class_grid_position}{Grid\+Position}} \&}]{stern }\end{DoxyParamCaption})}
+
+
+
+Constructor for the \doxylink{class_ship}{Ship} class. 
+
+Constructor for \doxylink{class_ship}{Ship} class.
+
+
+\begin{DoxyParams}{Parameters}
+{\em bow} & The bow position of the ship. \\
+\hline
+{\em stern} & The stern position of the ship. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_ship_a43cd6eeaffc11b49239b091621963a65}\label{class_ship_a43cd6eeaffc11b49239b091621963a65} 
+\index{Ship@{Ship}!````~Ship@{\texorpdfstring{$\sim$}{\string~}Ship}}
+\index{````~Ship@{\texorpdfstring{$\sim$}{\string~}Ship}!Ship@{Ship}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Ship()}{\string~Ship()}}
+{\footnotesize\ttfamily Ship\+::\texorpdfstring{$\sim$}{\string~}\+Ship (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destructor for the \doxylink{class_ship}{Ship} class. 
+
+Destructor for \doxylink{class_ship}{Ship} class. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_ship_ad8a910bb30074025413cd149777bd606}\label{class_ship_ad8a910bb30074025413cd149777bd606} 
+\index{Ship@{Ship}!blockedArea@{blockedArea}}
+\index{blockedArea@{blockedArea}!Ship@{Ship}}
+\doxysubsubsection{\texorpdfstring{blockedArea()}{blockedArea()}}
+{\footnotesize\ttfamily std\+::set$<$ \mbox{\hyperlink{class_grid_position}{Grid\+Position}} $>$ Ship\+::blocked\+Area (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Calculates the set of positions blocked by the ship. 
+
+\begin{DoxyReturn}{Returns}
+The set of blocked positions. 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 1
+\Hypertarget{class_ship_a1ee62ed4eab857250181ad6dd129936f}\label{class_ship_a1ee62ed4eab857250181ad6dd129936f} 
+\index{Ship@{Ship}!getBow@{getBow}}
+\index{getBow@{getBow}!Ship@{Ship}}
+\doxysubsubsection{\texorpdfstring{getBow()}{getBow()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_grid_position}{Grid\+Position}} Ship\+::get\+Bow (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the bow position of the ship. 
+
+\begin{DoxyReturn}{Returns}
+The bow position. 
+\end{DoxyReturn}
+\Hypertarget{class_ship_a06d805506287412caa3874f133493fb0}\label{class_ship_a06d805506287412caa3874f133493fb0} 
+\index{Ship@{Ship}!getStern@{getStern}}
+\index{getStern@{getStern}!Ship@{Ship}}
+\doxysubsubsection{\texorpdfstring{getStern()}{getStern()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_grid_position}{Grid\+Position}} Ship\+::get\+Stern (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the stern position of the ship. 
+
+\begin{DoxyReturn}{Returns}
+The stern position. 
+\end{DoxyReturn}
+\Hypertarget{class_ship_aca8795b8400236c49c6dd8de36abd767}\label{class_ship_aca8795b8400236c49c6dd8de36abd767} 
+\index{Ship@{Ship}!isValid@{isValid}}
+\index{isValid@{isValid}!Ship@{Ship}}
+\doxysubsubsection{\texorpdfstring{isValid()}{isValid()}}
+{\footnotesize\ttfamily bool Ship\+::is\+Valid (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Checks if the ship is valid. 
+
+A valid ship must have its bow and stern either in the same row or the same column and have a length between 2 and 5 (inclusive).
+
+\begin{DoxyReturn}{Returns}
+True if the ship is valid, false otherwise. 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 2
+\Hypertarget{class_ship_af1d2980cb6973d6370ab48ec50cea42c}\label{class_ship_af1d2980cb6973d6370ab48ec50cea42c} 
+\index{Ship@{Ship}!length@{length}}
+\index{length@{length}!Ship@{Ship}}
+\doxysubsubsection{\texorpdfstring{length()}{length()}}
+{\footnotesize\ttfamily int Ship\+::length (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Calculates the length of the ship. 
+
+\begin{DoxyReturn}{Returns}
+The length of the ship. 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 3
+\Hypertarget{class_ship_a86123be99e8d177bf905681326063a18}\label{class_ship_a86123be99e8d177bf905681326063a18} 
+\index{Ship@{Ship}!occupiedArea@{occupiedArea}}
+\index{occupiedArea@{occupiedArea}!Ship@{Ship}}
+\doxysubsubsection{\texorpdfstring{occupiedArea()}{occupiedArea()}}
+{\footnotesize\ttfamily std\+::set$<$ \mbox{\hyperlink{class_grid_position}{Grid\+Position}} $>$ Ship\+::occupied\+Area (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Calculates the set of positions occupied by the ship. 
+
+\begin{DoxyReturn}{Returns}
+The set of occupied positions. 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 4
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_ship_a31b03536f7b5c880ebcf3115d7221c7a}\label{class_ship_a31b03536f7b5c880ebcf3115d7221c7a} 
+\index{Ship@{Ship}!bow@{bow}}
+\index{bow@{bow}!Ship@{Ship}}
+\doxysubsubsection{\texorpdfstring{bow}{bow}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_grid_position}{Grid\+Position}} Ship\+::bow\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The bow position of the ship. 
+
+\Hypertarget{class_ship_adabece62035d169d41483d40255b30a2}\label{class_ship_adabece62035d169d41483d40255b30a2} 
+\index{Ship@{Ship}!stern@{stern}}
+\index{stern@{stern}!Ship@{Ship}}
+\doxysubsubsection{\texorpdfstring{stern}{stern}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_grid_position}{Grid\+Position}} Ship\+::stern\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The stern position of the ship. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+my\+Code/\mbox{\hyperlink{_ship_8h}{Ship.\+h}}\item 
+my\+Code/\mbox{\hyperlink{_ship_8cpp}{Ship.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,45 @@
+\doxysection{Opponent\+Grid.\+h}
+\hypertarget{_opponent_grid_8h_source}{}\label{_opponent_grid_8h_source}\index{myCode/OpponentGrid.h@{myCode/OpponentGrid.h}}
+\mbox{\hyperlink{_opponent_grid_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{comment}{/*}}
+\DoxyCodeLine{00002\ \textcolor{comment}{\ *\ OpponentGrid.h}}
+\DoxyCodeLine{00003\ \textcolor{comment}{\ *}}
+\DoxyCodeLine{00004\ \textcolor{comment}{\ *\ \ Created\ on:\ 07-\/Jan-\/2024}}
+\DoxyCodeLine{00005\ \textcolor{comment}{\ *\ \ \ \ \ \ Author:\ Dabbiru\ Sunil}}
+\DoxyCodeLine{00006\ \textcolor{comment}{\ */}}
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#ifndef\ OPPONENTGRID\_H\_}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#define\ OPPONENTGRID\_H\_}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_ship_8h}{Ship.h}}"{}}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_shot_8h}{Shot.h}}"{}}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#include\ <set>}}
+\DoxyCodeLine{00015\ \textcolor{preprocessor}{\#include\ <map>}}
+\DoxyCodeLine{00016\ }
+\DoxyCodeLine{00020\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_opponent_grid}{OpponentGrid}}\ \{}
+\DoxyCodeLine{00021\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00022\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_opponent_grid_aad22974d24f7443b2bf25199a94a851e}{rows}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00023\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_opponent_grid_a0231c107044aad380a742b1c02c0e549}{columns}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00024\ \ \ \ \ std::map<GridPosition,\ Shot::Impact>\ \mbox{\hyperlink{class_opponent_grid_a890c18280bab54165e4490b240182b1d}{shots}};}
+\DoxyCodeLine{00026\ \ \ \ \ std::vector<Ship>\ \mbox{\hyperlink{class_opponent_grid_aa2d21ada960eba61c347ffe7334fb0ec}{sunkenShips}};\ \ \ \ }
+\DoxyCodeLine{00028\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00035\ \ \ \ \ \mbox{\hyperlink{class_opponent_grid}{OpponentGrid}}(\textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_opponent_grid_aad22974d24f7443b2bf25199a94a851e}{rows}},\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_opponent_grid_a0231c107044aad380a742b1c02c0e549}{columns}});}
+\DoxyCodeLine{00036\ }
+\DoxyCodeLine{00041\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_opponent_grid_af0720c5c5f825193244036431e5ec949}{getRows}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00042\ }
+\DoxyCodeLine{00047\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_opponent_grid_afcb5784fa24bd4aa50bf45b0a4262cc7}{getColumns}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00048\ }
+\DoxyCodeLine{00054\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_opponent_grid_ab3c4c16ad0f41f84c78d495b31678e76}{shotResult}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{class_shot}{Shot}}\&\ shot,\ \mbox{\hyperlink{class_shot_a7b3c004dc3d60037797c74ce9d513572}{Shot::Impact}}\ impact);}
+\DoxyCodeLine{00055\ }
+\DoxyCodeLine{00060\ \ \ \ \ \textcolor{keyword}{const}\ std::map<GridPosition,\ Shot::Impact>\&\ \mbox{\hyperlink{class_opponent_grid_abd08e6d3c3051be99526694518a8732e}{getShotsAt}}();}
+\DoxyCodeLine{00061\ }
+\DoxyCodeLine{00066\ \ \ \ \ std::vector<Ship>\ \mbox{\hyperlink{class_opponent_grid_a0faae11048bc1fd478d5786982a65948}{getSunkenShips}}();}
+\DoxyCodeLine{00067\ }
+\DoxyCodeLine{00071\ \ \ \ \ \textcolor{keyword}{virtual}\ \mbox{\hyperlink{class_opponent_grid_a4a7237d8c8d66c0e69a18cadf38ec465}{\string~OpponentGrid}}();}
+\DoxyCodeLine{00072\ \};}
+\DoxyCodeLine{00073\ }
+\DoxyCodeLine{00074\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ OPPONENTGRID\_H\_\ */}\textcolor{preprocessor}{}}
+
+\end{DoxyCode}

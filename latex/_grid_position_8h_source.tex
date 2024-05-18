@@ -1,0 +1,46 @@
+\doxysection{Grid\+Position.\+h}
+\hypertarget{_grid_position_8h_source}{}\label{_grid_position_8h_source}\index{myCode/GridPosition.h@{myCode/GridPosition.h}}
+\mbox{\hyperlink{_grid_position_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{comment}{/*}}
+\DoxyCodeLine{00002\ \textcolor{comment}{\ *\ GridPosition.h}}
+\DoxyCodeLine{00003\ \textcolor{comment}{\ *\ Author:\ Dabbiru\ Sunil}}
+\DoxyCodeLine{00004\ \textcolor{comment}{\ *}}
+\DoxyCodeLine{00005\ \textcolor{comment}{\ *\ Description:}}
+\DoxyCodeLine{00006\ \textcolor{comment}{\ *\ This\ file\ contains\ the\ declaration\ of\ the\ GridPosition\ class.\ GridPosition}}
+\DoxyCodeLine{00007\ \textcolor{comment}{\ *\ represents\ a\ position\ on\ a\ game\ grid\ with\ a\ row\ (letter)\ and\ column\ (integer).}}
+\DoxyCodeLine{00008\ \textcolor{comment}{\ */}}
+\DoxyCodeLine{00009\ }
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#ifndef\ GRIDPOSITION\_H\_}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#define\ GRIDPOSITION\_H\_}}
+\DoxyCodeLine{00012\ }
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00015\ }
+\DoxyCodeLine{00016\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_grid_position}{GridPosition}}\ \{}
+\DoxyCodeLine{00017\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00018\ \ \ \ \ \textcolor{keywordtype}{char}\ \mbox{\hyperlink{class_grid_position_a11b125318d9e6bc68dc40bdfea961c20}{row}};\ \ \ \textcolor{comment}{//\ The\ row\ of\ the\ GridPosition.}}
+\DoxyCodeLine{00019\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_grid_position_a9938f4240e7235629197fa0e6e61238f}{column}};\ \textcolor{comment}{//\ The\ column\ of\ the\ GridPosition.}}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00021\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00022\ \ \ \ \ \mbox{\hyperlink{class_grid_position}{GridPosition}}(\textcolor{keywordtype}{char}\ \mbox{\hyperlink{class_grid_position_a11b125318d9e6bc68dc40bdfea961c20}{row}},\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_grid_position_a9938f4240e7235629197fa0e6e61238f}{column}});}
+\DoxyCodeLine{00023\ \ \ \ \ \mbox{\hyperlink{class_grid_position}{GridPosition}}(\textcolor{keyword}{const}\ std::string\&\ position);}
+\DoxyCodeLine{00024\ }
+\DoxyCodeLine{00029\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_grid_position_a67c42369642c4ee8340e81d87c8c4384}{isValid}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00030\ }
+\DoxyCodeLine{00035\ \ \ \ \ \textcolor{keywordtype}{char}\ \mbox{\hyperlink{class_grid_position_a2f3ba3cebd9c9858cdd056a450399567}{getRow}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00036\ }
+\DoxyCodeLine{00041\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_grid_position_a8fb0a647043e8b5d9babb338a182a470}{getColumn}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00042\ }
+\DoxyCodeLine{00047\ \ \ \ \ \textcolor{keyword}{operator}\ std::string()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00048\ }
+\DoxyCodeLine{00054\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_grid_position_ada37c92497c90d32c19e35b96e04a24d}{operator==}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{class_grid_position}{GridPosition}}\ other)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00055\ }
+\DoxyCodeLine{00061\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_grid_position_a5e2fa6dffecff2d63933d6649a67ff10}{operator<}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{class_grid_position}{GridPosition}}\ other)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00062\ }
+\DoxyCodeLine{00063\ \ \ \ \ \textcolor{keyword}{virtual}\ \mbox{\hyperlink{class_grid_position_a0253ee31ca835bf0980996200990aa11}{\string~GridPosition}}();}
+\DoxyCodeLine{00064\ \};}
+\DoxyCodeLine{00065\ }
+\DoxyCodeLine{00066\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ GRIDPOSITION\_H\_\ */}\textcolor{preprocessor}{}}
+
+\end{DoxyCode}

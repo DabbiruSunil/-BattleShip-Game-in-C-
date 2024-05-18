@@ -1,0 +1,36 @@
+<map id="part2tests" name="part2tests">
+<area shape="rect" id="Node000001" title="Function to execute Part 2 tests." alt="" coords="5,81,85,108"/>
+<area shape="rect" id="Node000002" href="$_all_tests_8h.html#ae67491ba9e5f515797c8e8501e4b0d94" title="Custom assertion function to check the given condition." alt="" coords="160,5,242,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="72,78,131,48,155,37,158,42,134,53,74,83"/>
+<area shape="rect" id="Node000003" href="$class_own_grid.html#a8c6b6770bf6fba175c4fe07f86d18f6e" title="Get the number of columns in the grid." alt="" coords="317,56,465,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="85,89,301,73,302,79,85,94"/>
+<area shape="rect" id="Node000004" href="$class_own_grid.html#aac5141fb7ede14bd7221b0c6f3c3c2ec" title="Get the number of rows in the grid." alt="" coords="327,107,456,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="85,95,311,112,311,117,85,100"/>
+<area shape="rect" id="Node000005" href="$class_own_grid.html#a4d300fd420ba12190101826c4ac4ad9f" title="Place a ship on the grid." alt="" coords="133,259,269,285"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="60,107,180,245,176,248,56,110"/>
+<area shape="poly" id="edge7_Node000005_Node000003" title=" " alt="" coords="205,257,219,224,243,180,275,133,315,93,322,88,325,92,319,97,279,137,247,183,224,226,210,259"/>
+<area shape="poly" id="edge9_Node000005_Node000004" title=" " alt="" coords="210,256,253,206,283,176,315,150,336,138,338,142,319,154,286,180,257,209,215,260"/>
+<area shape="rect" id="Node000006" href="$class_ship.html#a1ee62ed4eab857250181ad6dd129936f" title="Gets the bow position of the ship." alt="" coords="342,461,440,488"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="210,285,224,318,247,361,279,407,319,447,329,454,327,459,315,451,275,411,243,364,219,320,205,287"/>
+<area shape="rect" id="Node000007" href="$class_grid_position.html#a8fb0a647043e8b5d9babb338a182a470" title="Get the column of the GridPosition." alt="" coords="656,323,818,349"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="207,285,216,329,236,389,250,420,269,450,291,476,318,498,344,511,371,518,399,521,427,520,484,507,540,484,592,453,639,419,709,358,713,363,642,423,595,457,542,488,486,513,428,526,399,527,370,524,342,516,316,502,288,480,264,453,246,423,231,391,211,330,201,286"/>
+<area shape="rect" id="Node000008" href="$class_grid_position.html#a2f3ba3cebd9c9858cdd056a450399567" title="Get the row of the GridPosition." alt="" coords="665,247,809,273"/>
+<area shape="poly" id="edge8_Node000005_Node000008" title=" " alt="" coords="230,256,298,229,392,201,444,191,499,185,554,185,608,193,660,212,704,236,701,240,657,217,607,199,554,191,499,190,445,196,393,206,300,234,232,261"/>
+<area shape="rect" id="Node000009" href="$class_own_grid.html#a04d41c2fb352449d03e01d382d339505" title="Get the vector of ships placed on the grid." alt="" coords="326,360,456,387"/>
+<area shape="poly" id="edge10_Node000005_Node000009" title=" " alt="" coords="222,284,264,314,318,346,331,351,329,356,316,350,262,319,218,288"/>
+<area shape="rect" id="Node000010" href="$class_ship.html#a06d805506287412caa3874f133493fb0" title="Gets the stern position of the ship." alt="" coords="339,411,443,437"/>
+<area shape="poly" id="edge11_Node000005_Node000010" title=" " alt="" coords="213,284,255,338,285,369,319,396,327,402,324,406,315,401,281,373,251,342,209,288"/>
+<area shape="rect" id="Node000011" href="$class_ship.html#aca8795b8400236c49c6dd8de36abd767" title="Checks if the ship is valid." alt="" coords="513,208,608,235"/>
+<area shape="poly" id="edge12_Node000005_Node000011" title=" " alt="" coords="269,258,317,251,497,226,498,232,317,256,270,263"/>
+<area shape="rect" id="Node000012" href="$class_ship.html#af1d2980cb6973d6370ab48ec50cea42c" title="Calculates the length of the ship." alt="" coords="515,309,606,336"/>
+<area shape="poly" id="edge15_Node000005_Node000012" title=" " alt="" coords="270,273,363,280,466,295,501,303,500,308,465,300,363,286,269,278"/>
+<area shape="rect" id="Node000013" href="$class_ship.html#a86123be99e8d177bf905681326063a18" title="Calculates the set of positions occupied by the ship." alt="" coords="324,309,458,336"/>
+<area shape="poly" id="edge18_Node000005_Node000013" title=" " alt="" coords="255,283,324,302,323,307,253,289"/>
+<area shape="poly" id="edge13_Node000011_Node000007" title=" " alt="" coords="583,233,657,283,702,312,699,316,654,288,580,237"/>
+<area shape="poly" id="edge14_Node000011_Node000008" title=" " alt="" coords="608,229,659,240,657,245,607,234"/>
+<area shape="poly" id="edge16_Node000012_Node000007" title=" " alt="" coords="606,323,640,326,640,331,606,329"/>
+<area shape="poly" id="edge17_Node000012_Node000008" title=" " alt="" coords="599,306,682,276,684,281,601,311"/>
+<area shape="poly" id="edge19_Node000013_Node000007" title=" " alt="" coords="447,334,514,345,577,348,640,345,640,350,577,353,513,351,446,339"/>
+<area shape="poly" id="edge20_Node000013_Node000008" title=" " alt="" coords="456,306,513,295,650,271,650,276,514,300,457,311"/>
+<area shape="poly" id="edge21_Node000013_Node000012" title=" " alt="" coords="459,320,500,320,500,325,459,325"/>
+</map>

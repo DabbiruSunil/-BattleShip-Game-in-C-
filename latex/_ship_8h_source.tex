@@ -1,0 +1,43 @@
+\doxysection{Ship.\+h}
+\hypertarget{_ship_8h_source}{}\label{_ship_8h_source}\index{myCode/Ship.h@{myCode/Ship.h}}
+\mbox{\hyperlink{_ship_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{comment}{/*}}
+\DoxyCodeLine{00002\ \textcolor{comment}{\ *\ Ship.h}}
+\DoxyCodeLine{00003\ \textcolor{comment}{\ *}}
+\DoxyCodeLine{00004\ \textcolor{comment}{\ *\ \ Created\ on:\ 07-\/Jan-\/2024}}
+\DoxyCodeLine{00005\ \textcolor{comment}{\ *\ \ \ \ \ \ Author:\ Dabbiru\ Sunil}}
+\DoxyCodeLine{00006\ \textcolor{comment}{\ */}}
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#ifndef\ SHIP\_H\_}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#define\ SHIP\_H\_}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_grid_position_8h}{GridPosition.h}}"{}}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ <set>}}
+\DoxyCodeLine{00013\ }
+\DoxyCodeLine{00017\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_ship}{Ship}}\ \{}
+\DoxyCodeLine{00018\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00019\ \ \ \ \ \mbox{\hyperlink{class_grid_position}{GridPosition}}\ \mbox{\hyperlink{class_ship_a31b03536f7b5c880ebcf3115d7221c7a}{bow}};\ }
+\DoxyCodeLine{00020\ \ \ \ \ \mbox{\hyperlink{class_grid_position}{GridPosition}}\ \mbox{\hyperlink{class_ship_adabece62035d169d41483d40255b30a2}{stern}};\ }
+\DoxyCodeLine{00021\ }
+\DoxyCodeLine{00022\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00029\ \ \ \ \ \mbox{\hyperlink{class_ship}{Ship}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{class_grid_position}{GridPosition}}\&\ \mbox{\hyperlink{class_ship_a31b03536f7b5c880ebcf3115d7221c7a}{bow}},\ \textcolor{keyword}{const}\ \mbox{\hyperlink{class_grid_position}{GridPosition}}\&\ \mbox{\hyperlink{class_ship_adabece62035d169d41483d40255b30a2}{stern}});}
+\DoxyCodeLine{00030\ }
+\DoxyCodeLine{00040\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_ship_aca8795b8400236c49c6dd8de36abd767}{isValid}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00041\ }
+\DoxyCodeLine{00047\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_ship_af1d2980cb6973d6370ab48ec50cea42c}{length}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00048\ }
+\DoxyCodeLine{00054\ \ \ \ \ \mbox{\hyperlink{class_grid_position}{GridPosition}}\ \mbox{\hyperlink{class_ship_a1ee62ed4eab857250181ad6dd129936f}{getBow}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00055\ }
+\DoxyCodeLine{00061\ \ \ \ \ \mbox{\hyperlink{class_grid_position}{GridPosition}}\ \mbox{\hyperlink{class_ship_a06d805506287412caa3874f133493fb0}{getStern}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00062\ }
+\DoxyCodeLine{00068\ \ \ \ \ std::set<GridPosition>\ \mbox{\hyperlink{class_ship_a86123be99e8d177bf905681326063a18}{occupiedArea}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00069\ }
+\DoxyCodeLine{00075\ \ \ \ \ std::set<GridPosition>\ \mbox{\hyperlink{class_ship_ad8a910bb30074025413cd149777bd606}{blockedArea}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00076\ }
+\DoxyCodeLine{00080\ \ \ \ \ \mbox{\hyperlink{class_ship_a43cd6eeaffc11b49239b091621963a65}{\string~Ship}}();}
+\DoxyCodeLine{00081\ \};}
+\DoxyCodeLine{00082\ }
+\DoxyCodeLine{00083\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ SHIP\_H\_\ */}\textcolor{preprocessor}{}}
+
+\end{DoxyCode}

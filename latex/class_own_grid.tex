@@ -1,0 +1,270 @@
+\doxysection{Own\+Grid Class Reference}
+\hypertarget{class_own_grid}{}\label{class_own_grid}\index{OwnGrid@{OwnGrid}}
+
+
+\doxylink{class_own_grid}{Own\+Grid} class representing the player\textquotesingle{}s game grid.  
+
+
+
+
+{\ttfamily \#include $<$Own\+Grid.\+h$>$}
+
+
+
+Collaboration diagram for Own\+Grid\+:
+% FIG 0
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_own_grid_a19fd72819b5cc60b1990a81bea543ea4}{Own\+Grid}} (int \mbox{\hyperlink{class_own_grid_a4c4a233298926f0076f054b2baae2eba}{rows}}, int \mbox{\hyperlink{class_own_grid_ad152e80ddf680bdf2b10b01af03901e9}{columns}})
+\begin{DoxyCompactList}\small\item\em Construct a new \doxylink{class_own_grid}{Own\+Grid} object. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_own_grid_aac5141fb7ede14bd7221b0c6f3c3c2ec}{get\+Rows}} () const
+\begin{DoxyCompactList}\small\item\em Get the number of rows in the grid. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_own_grid_a8c6b6770bf6fba175c4fe07f86d18f6e}{get\+Columns}} () const
+\begin{DoxyCompactList}\small\item\em Get the number of columns in the grid. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_own_grid_a4d300fd420ba12190101826c4ac4ad9f}{place\+Ship}} (const \mbox{\hyperlink{class_ship}{Ship}} \&ship)
+\begin{DoxyCompactList}\small\item\em Place a ship on the grid. \end{DoxyCompactList}\item 
+const std\+::vector$<$ \mbox{\hyperlink{class_ship}{Ship}} $>$ \mbox{\hyperlink{class_own_grid_a04d41c2fb352449d03e01d382d339505}{get\+Ships}} ()
+\begin{DoxyCompactList}\small\item\em Get the vector of ships placed on the grid. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_shot_a7b3c004dc3d60037797c74ce9d513572}{Shot\+::\+Impact}} \mbox{\hyperlink{class_own_grid_a2a3f334d063ee081ae9b2eecb3d97643}{take\+Blow}} (const \mbox{\hyperlink{class_shot}{Shot}} \&shot)
+\begin{DoxyCompactList}\small\item\em Take a shot at the grid. \end{DoxyCompactList}\item 
+std\+::set$<$ \mbox{\hyperlink{class_grid_position}{Grid\+Position}} $>$ \mbox{\hyperlink{class_own_grid_ab62e889f15234b8889829bdad3cd9f12}{get\+Shot\+At}} () const
+\begin{DoxyCompactList}\small\item\em Get the set of positions where shots have been taken. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{class_own_grid_a2feb9d25e253c59a78274829d75e4400}{\texorpdfstring{$\sim$}{\string~}\+Own\+Grid}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \doxylink{class_own_grid}{Own\+Grid} object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_own_grid_a4c4a233298926f0076f054b2baae2eba}{rows}}
+\begin{DoxyCompactList}\small\item\em Number of rows in the grid. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_own_grid_ad152e80ddf680bdf2b10b01af03901e9}{columns}}
+\begin{DoxyCompactList}\small\item\em Number of columns in the grid. \end{DoxyCompactList}\item 
+std\+::vector$<$ \mbox{\hyperlink{class_ship}{Ship}} $>$ \mbox{\hyperlink{class_own_grid_a2b8c3418f163fc6b14777e546a824ff7}{ships}}
+\begin{DoxyCompactList}\small\item\em Vector of ships placed on the grid. \end{DoxyCompactList}\item 
+std\+::set$<$ \mbox{\hyperlink{class_grid_position}{Grid\+Position}} $>$ \mbox{\hyperlink{class_own_grid_a24d8966907cc269abab69569842578a3}{shot\+At}}
+\begin{DoxyCompactList}\small\item\em Set of positions where shot have. \end{DoxyCompactList}\item 
+std\+::map$<$ int, int $>$ \mbox{\hyperlink{class_own_grid_ae4c4759d5f8d62b87841621f31d7dfd0}{Length\+Check}}
+\begin{DoxyCompactList}\small\item\em Map to check ship lengths. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\doxylink{class_own_grid}{Own\+Grid} class representing the player\textquotesingle{}s game grid. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_own_grid_a19fd72819b5cc60b1990a81bea543ea4}\label{class_own_grid_a19fd72819b5cc60b1990a81bea543ea4} 
+\index{OwnGrid@{OwnGrid}!OwnGrid@{OwnGrid}}
+\index{OwnGrid@{OwnGrid}!OwnGrid@{OwnGrid}}
+\doxysubsubsection{\texorpdfstring{OwnGrid()}{OwnGrid()}}
+{\footnotesize\ttfamily Own\+Grid\+::\+Own\+Grid (\begin{DoxyParamCaption}\item[{int}]{rows,  }\item[{int}]{columns }\end{DoxyParamCaption})}
+
+
+
+Construct a new \doxylink{class_own_grid}{Own\+Grid} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rows} & Number of rows in the grid. \\
+\hline
+{\em columns} & Number of columns in the grid.\\
+\hline
+{\em rows} & The number of rows in the grid \\
+\hline
+{\em columns} & The number of columns in the grid \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_own_grid_a2feb9d25e253c59a78274829d75e4400}\label{class_own_grid_a2feb9d25e253c59a78274829d75e4400} 
+\index{OwnGrid@{OwnGrid}!````~OwnGrid@{\texorpdfstring{$\sim$}{\string~}OwnGrid}}
+\index{````~OwnGrid@{\texorpdfstring{$\sim$}{\string~}OwnGrid}!OwnGrid@{OwnGrid}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}OwnGrid()}{\string~OwnGrid()}}
+{\footnotesize\ttfamily Own\+Grid\+::\texorpdfstring{$\sim$}{\string~}\+Own\+Grid (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Destroy the \doxylink{class_own_grid}{Own\+Grid} object. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_own_grid_a8c6b6770bf6fba175c4fe07f86d18f6e}\label{class_own_grid_a8c6b6770bf6fba175c4fe07f86d18f6e} 
+\index{OwnGrid@{OwnGrid}!getColumns@{getColumns}}
+\index{getColumns@{getColumns}!OwnGrid@{OwnGrid}}
+\doxysubsubsection{\texorpdfstring{getColumns()}{getColumns()}}
+{\footnotesize\ttfamily int Own\+Grid\+::get\+Columns (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the number of columns in the grid. 
+
+\begin{DoxyReturn}{Returns}
+int Number of columns.
+
+int The number of columns 
+\end{DoxyReturn}
+\Hypertarget{class_own_grid_aac5141fb7ede14bd7221b0c6f3c3c2ec}\label{class_own_grid_aac5141fb7ede14bd7221b0c6f3c3c2ec} 
+\index{OwnGrid@{OwnGrid}!getRows@{getRows}}
+\index{getRows@{getRows}!OwnGrid@{OwnGrid}}
+\doxysubsubsection{\texorpdfstring{getRows()}{getRows()}}
+{\footnotesize\ttfamily int Own\+Grid\+::get\+Rows (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the number of rows in the grid. 
+
+\begin{DoxyReturn}{Returns}
+int Number of rows.
+
+int The number of rows 
+\end{DoxyReturn}
+\Hypertarget{class_own_grid_a04d41c2fb352449d03e01d382d339505}\label{class_own_grid_a04d41c2fb352449d03e01d382d339505} 
+\index{OwnGrid@{OwnGrid}!getShips@{getShips}}
+\index{getShips@{getShips}!OwnGrid@{OwnGrid}}
+\doxysubsubsection{\texorpdfstring{getShips()}{getShips()}}
+{\footnotesize\ttfamily const std\+::vector$<$ \mbox{\hyperlink{class_ship}{Ship}} $>$ Own\+Grid\+::get\+Ships (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the vector of ships placed on the grid. 
+
+Get the vector of ships on the grid.
+
+\begin{DoxyReturn}{Returns}
+const std\+::vector$<$\+Ship$>$ Vector of ships.
+
+const std\+::vector$<$\+Ship$>$ The vector of ships 
+\end{DoxyReturn}
+\Hypertarget{class_own_grid_ab62e889f15234b8889829bdad3cd9f12}\label{class_own_grid_ab62e889f15234b8889829bdad3cd9f12} 
+\index{OwnGrid@{OwnGrid}!getShotAt@{getShotAt}}
+\index{getShotAt@{getShotAt}!OwnGrid@{OwnGrid}}
+\doxysubsubsection{\texorpdfstring{getShotAt()}{getShotAt()}}
+{\footnotesize\ttfamily std\+::set$<$ \mbox{\hyperlink{class_grid_position}{Grid\+Position}} $>$ Own\+Grid\+::get\+Shot\+At (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the set of positions where shots have been taken. 
+
+Get the set of positions that have been shot at.
+
+\begin{DoxyReturn}{Returns}
+std\+::set$<$\+Grid\+Position$>$ Set of positions.
+
+std\+::set$<$\+Grid\+Position$>$ The set of shot positions 
+\end{DoxyReturn}
+\Hypertarget{class_own_grid_a4d300fd420ba12190101826c4ac4ad9f}\label{class_own_grid_a4d300fd420ba12190101826c4ac4ad9f} 
+\index{OwnGrid@{OwnGrid}!placeShip@{placeShip}}
+\index{placeShip@{placeShip}!OwnGrid@{OwnGrid}}
+\doxysubsubsection{\texorpdfstring{placeShip()}{placeShip()}}
+{\footnotesize\ttfamily bool Own\+Grid\+::place\+Ship (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_ship}{Ship}} \&}]{ship }\end{DoxyParamCaption})}
+
+
+
+Place a ship on the grid. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ship} & The \doxylink{class_ship}{Ship} object to be placed. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the ship is successfully placed, false otherwise.
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em ship} & The ship to be placed \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true If the ship is successfully placed 
+
+false If the ship cannot be placed 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 1
+\Hypertarget{class_own_grid_a2a3f334d063ee081ae9b2eecb3d97643}\label{class_own_grid_a2a3f334d063ee081ae9b2eecb3d97643} 
+\index{OwnGrid@{OwnGrid}!takeBlow@{takeBlow}}
+\index{takeBlow@{takeBlow}!OwnGrid@{OwnGrid}}
+\doxysubsubsection{\texorpdfstring{takeBlow()}{takeBlow()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_shot_a7b3c004dc3d60037797c74ce9d513572}{Shot\+::\+Impact}} Own\+Grid\+::take\+Blow (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_shot}{Shot}} \&}]{shot }\end{DoxyParamCaption})}
+
+
+
+Take a shot at the grid. 
+
+Take a blow at a specific position on the grid.
+
+
+\begin{DoxyParams}{Parameters}
+{\em shot} & The \doxylink{class_shot}{Shot} object representing the shot. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\doxylink{class_shot_a7b3c004dc3d60037797c74ce9d513572}{Shot\+::\+Impact} The impact of the shot.
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em shot} & The shot information \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\doxylink{class_shot_a7b3c004dc3d60037797c74ce9d513572}{Shot\+::\+Impact} The impact of the shot 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+% FIG 2
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_own_grid_ad152e80ddf680bdf2b10b01af03901e9}\label{class_own_grid_ad152e80ddf680bdf2b10b01af03901e9} 
+\index{OwnGrid@{OwnGrid}!columns@{columns}}
+\index{columns@{columns}!OwnGrid@{OwnGrid}}
+\doxysubsubsection{\texorpdfstring{columns}{columns}}
+{\footnotesize\ttfamily int Own\+Grid\+::columns\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Number of columns in the grid. 
+
+\Hypertarget{class_own_grid_ae4c4759d5f8d62b87841621f31d7dfd0}\label{class_own_grid_ae4c4759d5f8d62b87841621f31d7dfd0} 
+\index{OwnGrid@{OwnGrid}!LengthCheck@{LengthCheck}}
+\index{LengthCheck@{LengthCheck}!OwnGrid@{OwnGrid}}
+\doxysubsubsection{\texorpdfstring{LengthCheck}{LengthCheck}}
+{\footnotesize\ttfamily std\+::map$<$int, int$>$ Own\+Grid\+::\+Length\+Check\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Map to check ship lengths. 
+
+\Hypertarget{class_own_grid_a4c4a233298926f0076f054b2baae2eba}\label{class_own_grid_a4c4a233298926f0076f054b2baae2eba} 
+\index{OwnGrid@{OwnGrid}!rows@{rows}}
+\index{rows@{rows}!OwnGrid@{OwnGrid}}
+\doxysubsubsection{\texorpdfstring{rows}{rows}}
+{\footnotesize\ttfamily int Own\+Grid\+::rows\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Number of rows in the grid. 
+
+\Hypertarget{class_own_grid_a2b8c3418f163fc6b14777e546a824ff7}\label{class_own_grid_a2b8c3418f163fc6b14777e546a824ff7} 
+\index{OwnGrid@{OwnGrid}!ships@{ships}}
+\index{ships@{ships}!OwnGrid@{OwnGrid}}
+\doxysubsubsection{\texorpdfstring{ships}{ships}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{class_ship}{Ship}}$>$ Own\+Grid\+::ships\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Vector of ships placed on the grid. 
+
+\Hypertarget{class_own_grid_a24d8966907cc269abab69569842578a3}\label{class_own_grid_a24d8966907cc269abab69569842578a3} 
+\index{OwnGrid@{OwnGrid}!shotAt@{shotAt}}
+\index{shotAt@{shotAt}!OwnGrid@{OwnGrid}}
+\doxysubsubsection{\texorpdfstring{shotAt}{shotAt}}
+{\footnotesize\ttfamily std\+::set$<$\mbox{\hyperlink{class_grid_position}{Grid\+Position}}$>$ Own\+Grid\+::shot\+At\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Set of positions where shot have. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+my\+Code/\mbox{\hyperlink{_own_grid_8h}{Own\+Grid.\+h}}\item 
+my\+Code/\mbox{\hyperlink{_own_grid_8cpp}{Own\+Grid.\+cpp}}\end{DoxyCompactItemize}

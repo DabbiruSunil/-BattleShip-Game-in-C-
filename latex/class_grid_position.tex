@@ -1,0 +1,171 @@
+\doxysection{Grid\+Position Class Reference}
+\hypertarget{class_grid_position}{}\label{class_grid_position}\index{GridPosition@{GridPosition}}
+
+
+{\ttfamily \#include $<$Grid\+Position.\+h$>$}
+
+
+
+Collaboration diagram for Grid\+Position\+:
+% FIG 0
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_grid_position_a820304b014ffbf5c198e198cef798376}{Grid\+Position}} (char \mbox{\hyperlink{class_grid_position_a11b125318d9e6bc68dc40bdfea961c20}{row}}, int \mbox{\hyperlink{class_grid_position_a9938f4240e7235629197fa0e6e61238f}{column}})
+\item 
+\mbox{\hyperlink{class_grid_position_a49583c629746942d1085a8954495a3eb}{Grid\+Position}} (const std\+::string \&position)
+\item 
+bool \mbox{\hyperlink{class_grid_position_a67c42369642c4ee8340e81d87c8c4384}{is\+Valid}} () const
+\begin{DoxyCompactList}\small\item\em Check if the grid position is valid. \end{DoxyCompactList}\item 
+char \mbox{\hyperlink{class_grid_position_a2f3ba3cebd9c9858cdd056a450399567}{get\+Row}} () const
+\begin{DoxyCompactList}\small\item\em Get the row of the \doxylink{class_grid_position}{Grid\+Position}. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_grid_position_a8fb0a647043e8b5d9babb338a182a470}{get\+Column}} () const
+\begin{DoxyCompactList}\small\item\em Get the column of the \doxylink{class_grid_position}{Grid\+Position}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_grid_position_aafd2ec1b61879f65d8d1ee49251aca58}{operator std\+::string}} () const
+\begin{DoxyCompactList}\small\item\em Conversion operator to convert \doxylink{class_grid_position}{Grid\+Position} to a string. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_grid_position_ada37c92497c90d32c19e35b96e04a24d}{operator==}} (const \mbox{\hyperlink{class_grid_position}{Grid\+Position}} other) const
+\begin{DoxyCompactList}\small\item\em Equality operator to check if two Grid\+Positions are equal. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_grid_position_a5e2fa6dffecff2d63933d6649a67ff10}{operator$<$}} (const \mbox{\hyperlink{class_grid_position}{Grid\+Position}} other) const
+\begin{DoxyCompactList}\small\item\em Less than operator to compare two Grid\+Positions. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{class_grid_position_a0253ee31ca835bf0980996200990aa11}{\texorpdfstring{$\sim$}{\string~}\+Grid\+Position}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+char \mbox{\hyperlink{class_grid_position_a11b125318d9e6bc68dc40bdfea961c20}{row}}
+\item 
+int \mbox{\hyperlink{class_grid_position_a9938f4240e7235629197fa0e6e61238f}{column}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_grid_position_a820304b014ffbf5c198e198cef798376}\label{class_grid_position_a820304b014ffbf5c198e198cef798376} 
+\index{GridPosition@{GridPosition}!GridPosition@{GridPosition}}
+\index{GridPosition@{GridPosition}!GridPosition@{GridPosition}}
+\doxysubsubsection{\texorpdfstring{GridPosition()}{GridPosition()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Grid\+Position\+::\+Grid\+Position (\begin{DoxyParamCaption}\item[{char}]{row,  }\item[{int}]{column }\end{DoxyParamCaption})}
+
+\Hypertarget{class_grid_position_a49583c629746942d1085a8954495a3eb}\label{class_grid_position_a49583c629746942d1085a8954495a3eb} 
+\index{GridPosition@{GridPosition}!GridPosition@{GridPosition}}
+\index{GridPosition@{GridPosition}!GridPosition@{GridPosition}}
+\doxysubsubsection{\texorpdfstring{GridPosition()}{GridPosition()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Grid\+Position\+::\+Grid\+Position (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{position }\end{DoxyParamCaption})}
+
+\Hypertarget{class_grid_position_a0253ee31ca835bf0980996200990aa11}\label{class_grid_position_a0253ee31ca835bf0980996200990aa11} 
+\index{GridPosition@{GridPosition}!````~GridPosition@{\texorpdfstring{$\sim$}{\string~}GridPosition}}
+\index{````~GridPosition@{\texorpdfstring{$\sim$}{\string~}GridPosition}!GridPosition@{GridPosition}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}GridPosition()}{\string~GridPosition()}}
+{\footnotesize\ttfamily Grid\+Position\+::\texorpdfstring{$\sim$}{\string~}\+Grid\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_grid_position_a8fb0a647043e8b5d9babb338a182a470}\label{class_grid_position_a8fb0a647043e8b5d9babb338a182a470} 
+\index{GridPosition@{GridPosition}!getColumn@{getColumn}}
+\index{getColumn@{getColumn}!GridPosition@{GridPosition}}
+\doxysubsubsection{\texorpdfstring{getColumn()}{getColumn()}}
+{\footnotesize\ttfamily int Grid\+Position\+::get\+Column (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the column of the \doxylink{class_grid_position}{Grid\+Position}. 
+
+\begin{DoxyReturn}{Returns}
+The column (integer) of the \doxylink{class_grid_position}{Grid\+Position}. 
+\end{DoxyReturn}
+\Hypertarget{class_grid_position_a2f3ba3cebd9c9858cdd056a450399567}\label{class_grid_position_a2f3ba3cebd9c9858cdd056a450399567} 
+\index{GridPosition@{GridPosition}!getRow@{getRow}}
+\index{getRow@{getRow}!GridPosition@{GridPosition}}
+\doxysubsubsection{\texorpdfstring{getRow()}{getRow()}}
+{\footnotesize\ttfamily char Grid\+Position\+::get\+Row (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the row of the \doxylink{class_grid_position}{Grid\+Position}. 
+
+\begin{DoxyReturn}{Returns}
+The row (letter) of the \doxylink{class_grid_position}{Grid\+Position}. 
+\end{DoxyReturn}
+\Hypertarget{class_grid_position_a67c42369642c4ee8340e81d87c8c4384}\label{class_grid_position_a67c42369642c4ee8340e81d87c8c4384} 
+\index{GridPosition@{GridPosition}!isValid@{isValid}}
+\index{isValid@{isValid}!GridPosition@{GridPosition}}
+\doxysubsubsection{\texorpdfstring{isValid()}{isValid()}}
+{\footnotesize\ttfamily bool Grid\+Position\+::is\+Valid (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Check if the grid position is valid. 
+
+\begin{DoxyReturn}{Returns}
+True if the grid position is valid, false otherwise. 
+\end{DoxyReturn}
+\Hypertarget{class_grid_position_aafd2ec1b61879f65d8d1ee49251aca58}\label{class_grid_position_aafd2ec1b61879f65d8d1ee49251aca58} 
+\index{GridPosition@{GridPosition}!operator std::string@{operator std::string}}
+\index{operator std::string@{operator std::string}!GridPosition@{GridPosition}}
+\doxysubsubsection{\texorpdfstring{operator std::string()}{operator std::string()}}
+{\footnotesize\ttfamily Grid\+Position\+::operator std\+::string (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Conversion operator to convert \doxylink{class_grid_position}{Grid\+Position} to a string. 
+
+\begin{DoxyReturn}{Returns}
+A string representation of the \doxylink{class_grid_position}{Grid\+Position}. 
+\end{DoxyReturn}
+\Hypertarget{class_grid_position_a5e2fa6dffecff2d63933d6649a67ff10}\label{class_grid_position_a5e2fa6dffecff2d63933d6649a67ff10} 
+\index{GridPosition@{GridPosition}!operator$<$@{operator$<$}}
+\index{operator$<$@{operator$<$}!GridPosition@{GridPosition}}
+\doxysubsubsection{\texorpdfstring{operator$<$()}{operator<()}}
+{\footnotesize\ttfamily bool Grid\+Position\+::operator$<$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_grid_position}{Grid\+Position}}}]{other }\end{DoxyParamCaption}) const}
+
+
+
+Less than operator to compare two Grid\+Positions. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & The \doxylink{class_grid_position}{Grid\+Position} to compare with. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if this \doxylink{class_grid_position}{Grid\+Position} is less than the other,false otherwise. 
+\end{DoxyReturn}
+\Hypertarget{class_grid_position_ada37c92497c90d32c19e35b96e04a24d}\label{class_grid_position_ada37c92497c90d32c19e35b96e04a24d} 
+\index{GridPosition@{GridPosition}!operator==@{operator==}}
+\index{operator==@{operator==}!GridPosition@{GridPosition}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily bool Grid\+Position\+::operator== (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_grid_position}{Grid\+Position}}}]{other }\end{DoxyParamCaption}) const}
+
+
+
+Equality operator to check if two Grid\+Positions are equal. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & The \doxylink{class_grid_position}{Grid\+Position} to compare with. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the Grid\+Positions are equal, false otherwise. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_grid_position_a9938f4240e7235629197fa0e6e61238f}\label{class_grid_position_a9938f4240e7235629197fa0e6e61238f} 
+\index{GridPosition@{GridPosition}!column@{column}}
+\index{column@{column}!GridPosition@{GridPosition}}
+\doxysubsubsection{\texorpdfstring{column}{column}}
+{\footnotesize\ttfamily int Grid\+Position\+::column\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_grid_position_a11b125318d9e6bc68dc40bdfea961c20}\label{class_grid_position_a11b125318d9e6bc68dc40bdfea961c20} 
+\index{GridPosition@{GridPosition}!row@{row}}
+\index{row@{row}!GridPosition@{GridPosition}}
+\doxysubsubsection{\texorpdfstring{row}{row}}
+{\footnotesize\ttfamily char Grid\+Position\+::row\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+my\+Code/\mbox{\hyperlink{_grid_position_8h}{Grid\+Position.\+h}}\item 
+my\+Code/\mbox{\hyperlink{_grid_position_8cpp}{Grid\+Position.\+cpp}}\end{DoxyCompactItemize}

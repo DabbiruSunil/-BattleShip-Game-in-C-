@@ -1,0 +1,49 @@
+\doxysection{Own\+Grid.\+h}
+\hypertarget{_own_grid_8h_source}{}\label{_own_grid_8h_source}\index{myCode/OwnGrid.h@{myCode/OwnGrid.h}}
+\mbox{\hyperlink{_own_grid_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{comment}{/*}}
+\DoxyCodeLine{00002\ \textcolor{comment}{\ *\ OwnGrid.h}}
+\DoxyCodeLine{00003\ \textcolor{comment}{\ *}}
+\DoxyCodeLine{00004\ \textcolor{comment}{\ *\ \ Created\ on:\ 03-\/Jan-\/2024}}
+\DoxyCodeLine{00005\ \textcolor{comment}{\ *\ \ \ \ \ \ Author:\ Dabbiru\ Sunil}}
+\DoxyCodeLine{00006\ \textcolor{comment}{\ */}}
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#ifndef\ OWNGRID\_H\_}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#define\ OWNGRID\_H\_}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_ship_8h}{Ship.h}}"{}}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_shot_8h}{Shot.h}}"{}}}
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#include\ <map>}}
+\DoxyCodeLine{00015\ }
+\DoxyCodeLine{00019\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_own_grid}{OwnGrid}}\ \{}
+\DoxyCodeLine{00020\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00021\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_own_grid_a4c4a233298926f0076f054b2baae2eba}{rows}};\ }
+\DoxyCodeLine{00022\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_own_grid_ad152e80ddf680bdf2b10b01af03901e9}{columns}};\ }
+\DoxyCodeLine{00023\ \ \ \ \ std::vector<Ship>\ \mbox{\hyperlink{class_own_grid_a2b8c3418f163fc6b14777e546a824ff7}{ships}};\ }
+\DoxyCodeLine{00024\ \ \ \ \ std::set<GridPosition>\ \mbox{\hyperlink{class_own_grid_a24d8966907cc269abab69569842578a3}{shotAt}};\ }
+\DoxyCodeLine{00025\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//been\ taken.}}
+\DoxyCodeLine{00026\ \ \ \ \ std::map<int,\ int>\ \mbox{\hyperlink{class_own_grid_ae4c4759d5f8d62b87841621f31d7dfd0}{LengthCheck}};\ }
+\DoxyCodeLine{00027\ }
+\DoxyCodeLine{00028\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00035\ \ \ \ \ \mbox{\hyperlink{class_own_grid}{OwnGrid}}(\textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_own_grid_a4c4a233298926f0076f054b2baae2eba}{rows}},\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_own_grid_ad152e80ddf680bdf2b10b01af03901e9}{columns}});}
+\DoxyCodeLine{00036\ }
+\DoxyCodeLine{00042\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_own_grid_aac5141fb7ede14bd7221b0c6f3c3c2ec}{getRows}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00043\ }
+\DoxyCodeLine{00049\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_own_grid_a8c6b6770bf6fba175c4fe07f86d18f6e}{getColumns}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00050\ }
+\DoxyCodeLine{00057\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_own_grid_a4d300fd420ba12190101826c4ac4ad9f}{placeShip}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{class_ship}{Ship}}\ \&ship);}
+\DoxyCodeLine{00058\ }
+\DoxyCodeLine{00064\ \ \ \ \ \textcolor{keyword}{const}\ std::vector<Ship>\ \mbox{\hyperlink{class_own_grid_a04d41c2fb352449d03e01d382d339505}{getShips}}();}
+\DoxyCodeLine{00065\ }
+\DoxyCodeLine{00072\ \ \ \ \ \mbox{\hyperlink{class_shot_a7b3c004dc3d60037797c74ce9d513572}{Shot::Impact}}\ \mbox{\hyperlink{class_own_grid_a2a3f334d063ee081ae9b2eecb3d97643}{takeBlow}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{class_shot}{Shot}}\ \&shot);}
+\DoxyCodeLine{00073\ }
+\DoxyCodeLine{00079\ \ \ \ \ std::set<GridPosition>\ \mbox{\hyperlink{class_own_grid_ab62e889f15234b8889829bdad3cd9f12}{getShotAt}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00080\ }
+\DoxyCodeLine{00084\ \ \ \ \ \textcolor{keyword}{virtual}\ \mbox{\hyperlink{class_own_grid_a2feb9d25e253c59a78274829d75e4400}{\string~OwnGrid}}();}
+\DoxyCodeLine{00085\ \};}
+\DoxyCodeLine{00086\ }
+\DoxyCodeLine{00087\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ OWNGRID\_H\_\ */}\textcolor{preprocessor}{}}
+
+\end{DoxyCode}

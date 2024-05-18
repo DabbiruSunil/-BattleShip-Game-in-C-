@@ -1,0 +1,17 @@
+digraph "Ship::occupiedArea"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="Ship::occupiedArea",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Calculates the set of positions occupied by the ship."];
+  Node1 -> Node2 [id="edge6_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="GridPosition::getColumn",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_grid_position.html#a8fb0a647043e8b5d9babb338a182a470",tooltip="Get the column of the GridPosition."];
+  Node1 -> Node3 [id="edge7_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="GridPosition::getRow",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_grid_position.html#a2f3ba3cebd9c9858cdd056a450399567",tooltip="Get the row of the GridPosition."];
+  Node1 -> Node4 [id="edge8_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="Ship::length",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_ship.html#af1d2980cb6973d6370ab48ec50cea42c",tooltip="Calculates the length of the ship."];
+  Node4 -> Node2 [id="edge9_Node000004_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node4 -> Node3 [id="edge10_Node000004_Node000003",color="steelblue1",style="solid",tooltip=" "];
+}

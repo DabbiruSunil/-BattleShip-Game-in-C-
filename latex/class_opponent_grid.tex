@@ -1,0 +1,183 @@
+\doxysection{Opponent\+Grid Class Reference}
+\hypertarget{class_opponent_grid}{}\label{class_opponent_grid}\index{OpponentGrid@{OpponentGrid}}
+
+
+Represents the opponent\textquotesingle{}s grid in the game.  
+
+
+
+
+{\ttfamily \#include $<$Opponent\+Grid.\+h$>$}
+
+
+
+Collaboration diagram for Opponent\+Grid\+:
+% FIG 0
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_opponent_grid_a35ff047cd202db19dca5d2696d3d49ee}{Opponent\+Grid}} (int \mbox{\hyperlink{class_opponent_grid_aad22974d24f7443b2bf25199a94a851e}{rows}}, int \mbox{\hyperlink{class_opponent_grid_a0231c107044aad380a742b1c02c0e549}{columns}})
+\begin{DoxyCompactList}\small\item\em Constructs an \doxylink{class_opponent_grid}{Opponent\+Grid} object with the specified number of rows and columns. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_opponent_grid_af0720c5c5f825193244036431e5ec949}{get\+Rows}} () const
+\begin{DoxyCompactList}\small\item\em Gets the number of rows in the opponent grid. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_opponent_grid_afcb5784fa24bd4aa50bf45b0a4262cc7}{get\+Columns}} () const
+\begin{DoxyCompactList}\small\item\em Gets the number of columns in the opponent grid. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_opponent_grid_ab3c4c16ad0f41f84c78d495b31678e76}{shot\+Result}} (const \mbox{\hyperlink{class_shot}{Shot}} \&shot, \mbox{\hyperlink{class_shot_a7b3c004dc3d60037797c74ce9d513572}{Shot\+::\+Impact}} impact)
+\begin{DoxyCompactList}\small\item\em Processes the result of a shot on the opponent grid. \end{DoxyCompactList}\item 
+const std\+::map$<$ \mbox{\hyperlink{class_grid_position}{Grid\+Position}}, \mbox{\hyperlink{class_shot_a7b3c004dc3d60037797c74ce9d513572}{Shot\+::\+Impact}} $>$ \& \mbox{\hyperlink{class_opponent_grid_abd08e6d3c3051be99526694518a8732e}{get\+Shots\+At}} ()
+\begin{DoxyCompactList}\small\item\em Gets the map of shots fired at the opponent grid and their impacts. \end{DoxyCompactList}\item 
+std\+::vector$<$ \mbox{\hyperlink{class_ship}{Ship}} $>$ \mbox{\hyperlink{class_opponent_grid_a0faae11048bc1fd478d5786982a65948}{get\+Sunken\+Ships}} ()
+\begin{DoxyCompactList}\small\item\em Gets the vector of sunken ships on the opponent grid. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{class_opponent_grid_a4a7237d8c8d66c0e69a18cadf38ec465}{\texorpdfstring{$\sim$}{\string~}\+Opponent\+Grid}} ()
+\begin{DoxyCompactList}\small\item\em Destructs the \doxylink{class_opponent_grid}{Opponent\+Grid} object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_opponent_grid_aad22974d24f7443b2bf25199a94a851e}{rows}}
+\item 
+int \mbox{\hyperlink{class_opponent_grid_a0231c107044aad380a742b1c02c0e549}{columns}}
+\item 
+std\+::map$<$ \mbox{\hyperlink{class_grid_position}{Grid\+Position}}, \mbox{\hyperlink{class_shot_a7b3c004dc3d60037797c74ce9d513572}{Shot\+::\+Impact}} $>$ \mbox{\hyperlink{class_opponent_grid_a890c18280bab54165e4490b240182b1d}{shots}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{class_ship}{Ship}} $>$ \mbox{\hyperlink{class_opponent_grid_aa2d21ada960eba61c347ffe7334fb0ec}{sunken\+Ships}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents the opponent\textquotesingle{}s grid in the game. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_opponent_grid_a35ff047cd202db19dca5d2696d3d49ee}\label{class_opponent_grid_a35ff047cd202db19dca5d2696d3d49ee} 
+\index{OpponentGrid@{OpponentGrid}!OpponentGrid@{OpponentGrid}}
+\index{OpponentGrid@{OpponentGrid}!OpponentGrid@{OpponentGrid}}
+\doxysubsubsection{\texorpdfstring{OpponentGrid()}{OpponentGrid()}}
+{\footnotesize\ttfamily Opponent\+Grid\+::\+Opponent\+Grid (\begin{DoxyParamCaption}\item[{int}]{rows,  }\item[{int}]{columns }\end{DoxyParamCaption})}
+
+
+
+Constructs an \doxylink{class_opponent_grid}{Opponent\+Grid} object with the specified number of rows and columns. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rows} & The number of rows in the grid. \\
+\hline
+{\em columns} & The number of columns in the grid. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_opponent_grid_a4a7237d8c8d66c0e69a18cadf38ec465}\label{class_opponent_grid_a4a7237d8c8d66c0e69a18cadf38ec465} 
+\index{OpponentGrid@{OpponentGrid}!````~OpponentGrid@{\texorpdfstring{$\sim$}{\string~}OpponentGrid}}
+\index{````~OpponentGrid@{\texorpdfstring{$\sim$}{\string~}OpponentGrid}!OpponentGrid@{OpponentGrid}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}OpponentGrid()}{\string~OpponentGrid()}}
+{\footnotesize\ttfamily Opponent\+Grid\+::\texorpdfstring{$\sim$}{\string~}\+Opponent\+Grid (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Destructs the \doxylink{class_opponent_grid}{Opponent\+Grid} object. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_opponent_grid_afcb5784fa24bd4aa50bf45b0a4262cc7}\label{class_opponent_grid_afcb5784fa24bd4aa50bf45b0a4262cc7} 
+\index{OpponentGrid@{OpponentGrid}!getColumns@{getColumns}}
+\index{getColumns@{getColumns}!OpponentGrid@{OpponentGrid}}
+\doxysubsubsection{\texorpdfstring{getColumns()}{getColumns()}}
+{\footnotesize\ttfamily int Opponent\+Grid\+::get\+Columns (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the number of columns in the opponent grid. 
+
+\begin{DoxyReturn}{Returns}
+The number of columns. 
+\end{DoxyReturn}
+\Hypertarget{class_opponent_grid_af0720c5c5f825193244036431e5ec949}\label{class_opponent_grid_af0720c5c5f825193244036431e5ec949} 
+\index{OpponentGrid@{OpponentGrid}!getRows@{getRows}}
+\index{getRows@{getRows}!OpponentGrid@{OpponentGrid}}
+\doxysubsubsection{\texorpdfstring{getRows()}{getRows()}}
+{\footnotesize\ttfamily int Opponent\+Grid\+::get\+Rows (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the number of rows in the opponent grid. 
+
+\begin{DoxyReturn}{Returns}
+The number of rows. 
+\end{DoxyReturn}
+\Hypertarget{class_opponent_grid_abd08e6d3c3051be99526694518a8732e}\label{class_opponent_grid_abd08e6d3c3051be99526694518a8732e} 
+\index{OpponentGrid@{OpponentGrid}!getShotsAt@{getShotsAt}}
+\index{getShotsAt@{getShotsAt}!OpponentGrid@{OpponentGrid}}
+\doxysubsubsection{\texorpdfstring{getShotsAt()}{getShotsAt()}}
+{\footnotesize\ttfamily const std\+::map$<$ \mbox{\hyperlink{class_grid_position}{Grid\+Position}}, \mbox{\hyperlink{class_shot_a7b3c004dc3d60037797c74ce9d513572}{Shot\+::\+Impact}} $>$ \& Opponent\+Grid\+::get\+Shots\+At (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the map of shots fired at the opponent grid and their impacts. 
+
+\begin{DoxyReturn}{Returns}
+The map of shots and their impacts. 
+\end{DoxyReturn}
+\Hypertarget{class_opponent_grid_a0faae11048bc1fd478d5786982a65948}\label{class_opponent_grid_a0faae11048bc1fd478d5786982a65948} 
+\index{OpponentGrid@{OpponentGrid}!getSunkenShips@{getSunkenShips}}
+\index{getSunkenShips@{getSunkenShips}!OpponentGrid@{OpponentGrid}}
+\doxysubsubsection{\texorpdfstring{getSunkenShips()}{getSunkenShips()}}
+{\footnotesize\ttfamily std\+::vector$<$ \mbox{\hyperlink{class_ship}{Ship}} $>$ Opponent\+Grid\+::get\+Sunken\+Ships (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the vector of sunken ships on the opponent grid. 
+
+\begin{DoxyReturn}{Returns}
+The vector of sunken ships. 
+\end{DoxyReturn}
+\Hypertarget{class_opponent_grid_ab3c4c16ad0f41f84c78d495b31678e76}\label{class_opponent_grid_ab3c4c16ad0f41f84c78d495b31678e76} 
+\index{OpponentGrid@{OpponentGrid}!shotResult@{shotResult}}
+\index{shotResult@{shotResult}!OpponentGrid@{OpponentGrid}}
+\doxysubsubsection{\texorpdfstring{shotResult()}{shotResult()}}
+{\footnotesize\ttfamily void Opponent\+Grid\+::shot\+Result (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_shot}{Shot}} \&}]{shot,  }\item[{\mbox{\hyperlink{class_shot_a7b3c004dc3d60037797c74ce9d513572}{Shot\+::\+Impact}}}]{impact }\end{DoxyParamCaption})}
+
+
+
+Processes the result of a shot on the opponent grid. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em shot} & The shot fired. \\
+\hline
+{\em impact} & The impact of the shot (HIT or SUNKEN). \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+% FIG 1
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_opponent_grid_a0231c107044aad380a742b1c02c0e549}\label{class_opponent_grid_a0231c107044aad380a742b1c02c0e549} 
+\index{OpponentGrid@{OpponentGrid}!columns@{columns}}
+\index{columns@{columns}!OpponentGrid@{OpponentGrid}}
+\doxysubsubsection{\texorpdfstring{columns}{columns}}
+{\footnotesize\ttfamily int Opponent\+Grid\+::columns\hspace{0.3cm}{\ttfamily [private]}}
+
+The number of columns in the grid. \Hypertarget{class_opponent_grid_aad22974d24f7443b2bf25199a94a851e}\label{class_opponent_grid_aad22974d24f7443b2bf25199a94a851e} 
+\index{OpponentGrid@{OpponentGrid}!rows@{rows}}
+\index{rows@{rows}!OpponentGrid@{OpponentGrid}}
+\doxysubsubsection{\texorpdfstring{rows}{rows}}
+{\footnotesize\ttfamily int Opponent\+Grid\+::rows\hspace{0.3cm}{\ttfamily [private]}}
+
+The number of rows in the grid. \Hypertarget{class_opponent_grid_a890c18280bab54165e4490b240182b1d}\label{class_opponent_grid_a890c18280bab54165e4490b240182b1d} 
+\index{OpponentGrid@{OpponentGrid}!shots@{shots}}
+\index{shots@{shots}!OpponentGrid@{OpponentGrid}}
+\doxysubsubsection{\texorpdfstring{shots}{shots}}
+{\footnotesize\ttfamily std\+::map$<$\mbox{\hyperlink{class_grid_position}{Grid\+Position}}, \mbox{\hyperlink{class_shot_a7b3c004dc3d60037797c74ce9d513572}{Shot\+::\+Impact}}$>$ Opponent\+Grid\+::shots\hspace{0.3cm}{\ttfamily [private]}}
+
+Map to store shots and their impacts. \Hypertarget{class_opponent_grid_aa2d21ada960eba61c347ffe7334fb0ec}\label{class_opponent_grid_aa2d21ada960eba61c347ffe7334fb0ec} 
+\index{OpponentGrid@{OpponentGrid}!sunkenShips@{sunkenShips}}
+\index{sunkenShips@{sunkenShips}!OpponentGrid@{OpponentGrid}}
+\doxysubsubsection{\texorpdfstring{sunkenShips}{sunkenShips}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{class_ship}{Ship}}$>$ Opponent\+Grid\+::sunken\+Ships\hspace{0.3cm}{\ttfamily [private]}}
+
+Vector to store sunken ships. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+my\+Code/\mbox{\hyperlink{_opponent_grid_8h}{Opponent\+Grid.\+h}}\item 
+my\+Code/\mbox{\hyperlink{_opponent_grid_8cpp}{Opponent\+Grid.\+cpp}}\end{DoxyCompactItemize}

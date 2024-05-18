@@ -1,0 +1,64 @@
+<map id="part3tests" name="part3tests">
+<area shape="rect" id="Node000001" title="Function to execute Part 3 tests." alt="" coords="5,577,85,604"/>
+<area shape="rect" id="Node000002" href="$_all_tests_8h.html#ae67491ba9e5f515797c8e8501e4b0d94" title="Custom assertion function to check the given condition." alt="" coords="160,248,242,274"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="43,576,46,523,57,446,68,403,83,361,104,320,131,284,144,274,147,278,135,288,108,323,88,363,73,405,62,447,51,524,49,577"/>
+<area shape="rect" id="Node000003" href="$class_board.html#af86e9399a067abdc7fc5ea95df8ff796" title="Getter function to access the board&#39;s opponentGrid." alt="" coords="339,526,500,553"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="85,578,132,569,323,545,323,550,133,574,86,584"/>
+<area shape="rect" id="Node000004" href="$class_board.html#a0d975795db53917d0ef1fae0352bdf4c" title="Getter function to access the board&#39;s ownGrid." alt="" coords="354,577,485,604"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="85,588,338,588,338,593,85,593"/>
+<area shape="rect" id="Node000005" href="$class_own_grid.html#a4d300fd420ba12190101826c4ac4ad9f" title="Place a ship on the grid." alt="" coords="133,298,269,325"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="52,575,182,338,187,340,56,578"/>
+<area shape="rect" id="Node000016" href="$class_console_view.html#a9d4983b8b859d856c8c1cd6887e05bc1" title="Print the game board to the console." alt="" coords="136,628,266,654"/>
+<area shape="poly" id="edge22_Node000001_Node000016" title=" " alt="" coords="86,601,144,620,142,625,84,606"/>
+<area shape="rect" id="Node000021" href="$class_own_grid.html#a2a3f334d063ee081ae9b2eecb3d97643" title="Take a shot at the grid." alt="" coords="353,881,485,908"/>
+<area shape="poly" id="edge39_Node000001_Node000021" title=" " alt="" coords="57,602,94,653,152,724,229,801,273,836,318,867,339,876,337,881,316,871,269,841,226,805,149,728,89,656,53,605"/>
+<area shape="rect" id="Node000023" href="$class_opponent_grid.html#ab3c4c16ad0f41f84c78d495b31678e76" title="Processes the result of a shot on the opponent grid." alt="" coords="334,932,505,958"/>
+<area shape="poly" id="edge35_Node000001_Node000023" title=" " alt="" coords="50,604,56,647,70,709,95,776,113,808,135,836,175,871,222,897,271,916,319,928,318,934,270,921,219,902,172,875,131,840,108,811,90,779,64,711,50,648,45,604"/>
+<area shape="rect" id="Node000006" href="$class_ship.html#a1ee62ed4eab857250181ad6dd129936f" title="Gets the bow position of the ship." alt="" coords="370,70,468,97"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="253,296,267,284,282,263,289,243,290,200,291,158,299,136,315,114,333,100,354,91,356,96,336,105,319,117,304,138,296,159,295,200,294,244,286,266,271,288,256,300"/>
+<area shape="rect" id="Node000007" href="$class_grid_position.html#a8fb0a647043e8b5d9babb338a182a470" title="Get the column of the GridPosition." alt="" coords="775,121,937,148"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="253,296,267,285,285,256,291,226,290,197,285,168,282,138,282,110,292,82,315,56,345,36,377,21,411,11,446,5,518,5,590,17,659,38,723,63,820,111,818,115,721,67,658,43,589,22,517,10,446,10,412,16,379,26,348,40,319,60,297,85,288,111,287,138,291,167,295,197,296,227,290,258,271,288,256,300"/>
+<area shape="rect" id="Node000008" href="$class_own_grid.html#a8c6b6770bf6fba175c4fe07f86d18f6e" title="Get the number of columns in the grid." alt="" coords="345,425,493,452"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="217,324,260,363,318,404,348,417,345,422,316,409,257,367,214,327"/>
+<area shape="rect" id="Node000009" href="$class_grid_position.html#a2f3ba3cebd9c9858cdd056a450399567" title="Get the row of the GridPosition." alt="" coords="784,222,928,249"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="270,313,387,316,521,309,595,298,669,283,793,251,795,256,670,288,596,303,522,314,387,321,270,319"/>
+<area shape="rect" id="Node000010" href="$class_own_grid.html#aac5141fb7ede14bd7221b0c6f3c3c2ec" title="Get the number of rows in the grid." alt="" coords="355,476,484,502"/>
+<area shape="poly" id="edge9_Node000005_Node000010" title=" " alt="" coords="211,324,250,391,281,429,318,461,341,473,339,478,316,466,277,433,245,394,206,327"/>
+<area shape="rect" id="Node000011" href="$class_own_grid.html#a04d41c2fb352449d03e01d382d339505" title="Get the vector of ships placed on the grid." alt="" coords="583,628,713,654"/>
+<area shape="poly" id="edge10_Node000005_Node000011" title=" " alt="" coords="237,323,318,353,377,366,425,371,472,381,496,393,523,411,547,433,568,458,602,513,626,568,642,612,637,614,621,570,597,516,564,461,543,437,520,415,494,397,470,386,425,376,376,371,316,358,235,328"/>
+<area shape="rect" id="Node000012" href="$class_ship.html#a06d805506287412caa3874f133493fb0" title="Gets the stern position of the ship." alt="" coords="367,273,471,300"/>
+<area shape="poly" id="edge11_Node000005_Node000012" title=" " alt="" coords="269,301,351,291,352,297,270,306"/>
+<area shape="rect" id="Node000013" href="$class_ship.html#aca8795b8400236c49c6dd8de36abd767" title="Checks if the ship is valid." alt="" coords="601,121,695,148"/>
+<area shape="poly" id="edge12_Node000005_Node000013" title=" " alt="" coords="252,296,267,284,279,269,285,253,288,220,293,188,301,172,315,158,347,138,381,125,417,116,453,111,524,111,586,118,585,124,524,116,454,117,418,121,382,130,349,143,319,162,305,175,298,189,294,221,290,254,284,271,271,288,255,300"/>
+<area shape="rect" id="Node000014" href="$class_ship.html#af1d2980cb6973d6370ab48ec50cea42c" title="Calculates the length of the ship." alt="" coords="603,222,693,249"/>
+<area shape="poly" id="edge15_Node000005_Node000014" title=" " alt="" coords="240,295,268,284,291,270,316,258,388,243,461,234,587,230,587,236,462,239,389,248,318,263,294,275,270,289,242,300"/>
+<area shape="rect" id="Node000015" href="$class_ship.html#a86123be99e8d177bf905681326063a18" title="Calculates the set of positions occupied by the ship." alt="" coords="352,172,486,198"/>
+<area shape="poly" id="edge18_Node000005_Node000015" title=" " alt="" coords="248,295,267,284,282,267,290,250,299,232,315,215,337,202,340,207,319,219,303,235,295,252,287,270,271,288,251,300"/>
+<area shape="poly" id="edge13_Node000013_Node000007" title=" " alt="" coords="695,132,759,132,759,137,695,137"/>
+<area shape="poly" id="edge14_Node000013_Node000009" title=" " alt="" coords="686,146,728,164,819,212,817,217,726,169,684,151"/>
+<area shape="poly" id="edge16_Node000014_Node000007" title=" " alt="" coords="676,219,812,152,815,157,679,224"/>
+<area shape="poly" id="edge17_Node000014_Node000009" title=" " alt="" coords="693,233,769,233,769,238,693,238"/>
+<area shape="poly" id="edge19_Node000015_Node000007" title=" " alt="" coords="439,169,495,135,531,119,569,106,627,98,686,99,742,105,790,114,789,119,741,110,685,104,627,103,570,112,533,124,497,140,441,173"/>
+<area shape="poly" id="edge20_Node000015_Node000009" title=" " alt="" coords="487,186,599,194,727,208,777,216,776,221,726,213,599,199,486,191"/>
+<area shape="poly" id="edge21_Node000015_Node000014" title=" " alt="" coords="483,196,588,220,587,225,482,202"/>
+<area shape="poly" id="edge24_Node000016_Node000003" title=" " alt="" coords="217,625,261,594,316,563,334,556,336,561,318,567,263,598,221,629"/>
+<area shape="poly" id="edge25_Node000016_Node000004" title=" " alt="" coords="261,624,343,605,344,610,262,630"/>
+<area shape="poly" id="edge23_Node000016_Node000008" title=" " alt="" coords="204,626,218,593,242,548,274,501,315,461,329,453,332,458,319,466,278,505,246,551,223,595,209,628"/>
+<area shape="poly" id="edge27_Node000016_Node000010" title=" " alt="" coords="209,625,250,570,280,539,316,512,339,501,341,506,318,517,284,543,254,574,213,629"/>
+<area shape="poly" id="edge28_Node000016_Node000011" title=" " alt="" coords="266,638,567,638,567,644,266,644"/>
+<area shape="rect" id="Node000017" href="$class_opponent_grid.html#af0720c5c5f825193244036431e5ec949" title="Gets the number of rows in the opponent grid." alt="" coords="340,678,499,705"/>
+<area shape="poly" id="edge26_Node000016_Node000017" title=" " alt="" coords="262,652,344,672,343,677,261,658"/>
+<area shape="rect" id="Node000018" href="$class_own_grid.html#ab62e889f15234b8889829bdad3cd9f12" title="Get the set of positions where shots have been taken." alt="" coords="351,729,488,756"/>
+<area shape="poly" id="edge29_Node000016_Node000018" title=" " alt="" coords="221,653,263,684,318,715,337,722,335,727,316,719,261,688,217,657"/>
+<area shape="rect" id="Node000019" href="$class_opponent_grid.html#abd08e6d3c3051be99526694518a8732e" title="Gets the map of shots fired at the opponent grid and their impacts." alt="" coords="332,780,506,806"/>
+<area shape="poly" id="edge30_Node000016_Node000019" title=" " alt="" coords="213,653,254,708,284,739,318,765,329,771,326,775,316,770,280,743,250,712,209,656"/>
+<area shape="rect" id="Node000020" href="$class_opponent_grid.html#a0faae11048bc1fd478d5786982a65948" title="Gets the vector of sunken ships on the opponent grid." alt="" coords="317,830,521,857"/>
+<area shape="poly" id="edge31_Node000016_Node000020" title=" " alt="" coords="209,654,223,687,246,731,278,777,319,816,326,821,323,825,315,820,274,781,242,734,218,689,204,656"/>
+<area shape="poly" id="edge32_Node000016_Node000021" title=" " alt="" coords="211,654,319,867,340,879,337,884,315,871,207,656"/>
+<area shape="poly" id="edge33_Node000021_Node000011" title=" " alt="" coords="485,884,520,867,543,846,564,821,598,767,622,713,637,668,642,670,627,715,603,769,568,824,547,849,523,871,487,889"/>
+<area shape="rect" id="Node000022" href="$class_shot.html#a8eeca9f93c72b7b63f529ee529a36d13" title="Gets the target position of the shot." alt="" coords="569,856,727,882"/>
+<area shape="poly" id="edge34_Node000021_Node000022" title=" " alt="" coords="486,884,554,877,554,882,486,890"/>
+<area shape="poly" id="edge36_Node000023_Node000007" title=" " alt="" coords="505,940,569,935,635,926,690,912,711,903,725,892,741,868,753,837,761,801,766,759,767,665,762,562,755,458,752,359,756,274,762,239,772,209,793,179,819,155,823,159,797,182,777,211,767,240,761,275,757,359,761,457,767,562,772,665,771,759,766,802,758,839,746,871,729,896,713,908,692,917,636,931,570,940,505,945"/>
+<area shape="poly" id="edge37_Node000023_Node000009" title=" " alt="" coords="463,956,521,970,591,977,627,975,662,968,695,956,725,936,743,916,760,888,788,812,809,717,826,613,845,408,851,265,857,265,850,409,831,614,815,718,793,813,764,890,747,919,728,940,698,960,664,973,628,980,591,982,520,975,462,961"/>
+<area shape="poly" id="edge38_Node000023_Node000022" title=" " alt="" coords="481,928,520,917,598,886,600,891,522,922,482,934"/>
+</map>

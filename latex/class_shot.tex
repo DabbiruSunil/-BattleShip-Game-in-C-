@@ -1,0 +1,126 @@
+\doxysection{Shot Class Reference}
+\hypertarget{class_shot}{}\label{class_shot}\index{Shot@{Shot}}
+
+
+Class representing a shot in the game.  
+
+
+
+
+{\ttfamily \#include $<$Shot.\+h$>$}
+
+
+
+Collaboration diagram for Shot\+:
+% FIG 0
+\doxysubsubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{class_shot_a7b3c004dc3d60037797c74ce9d513572}{Impact}} \{ \mbox{\hyperlink{class_shot_a7b3c004dc3d60037797c74ce9d513572a3a4bbd748aa379fa00cef475edaf7803}{NONE}}
+, \mbox{\hyperlink{class_shot_a7b3c004dc3d60037797c74ce9d513572aa8191049dd5ccb7335c9d45a2c11efce}{HIT}}
+, \mbox{\hyperlink{class_shot_a7b3c004dc3d60037797c74ce9d513572ab16a58efaa329423a263775e79735fc6}{SUNKEN}}
+ \}
+\begin{DoxyCompactList}\small\item\em Enum representing the impact of a shot. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_shot_a9c85916876bda299a088bde1b5483bb9}{Shot}} (\mbox{\hyperlink{class_grid_position}{Grid\+Position}} \mbox{\hyperlink{class_shot_a6def512fa017c118a8adcf8d32f4dd3d}{target\+Position}})
+\begin{DoxyCompactList}\small\item\em Constructor for the \doxylink{class_shot}{Shot} class. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_grid_position}{Grid\+Position}} \mbox{\hyperlink{class_shot_a8eeca9f93c72b7b63f529ee529a36d13}{get\+Target\+Position}} () const
+\begin{DoxyCompactList}\small\item\em Gets the target position of the shot. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{class_shot_a9c3437fd84fa6178a5191ea040e7d837}{\texorpdfstring{$\sim$}{\string~}\+Shot}} ()
+\begin{DoxyCompactList}\small\item\em Destructor for the \doxylink{class_shot}{Shot} class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_grid_position}{Grid\+Position}} \mbox{\hyperlink{class_shot_a6def512fa017c118a8adcf8d32f4dd3d}{target\+Position}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class representing a shot in the game. 
+
+\doxysubsection{Member Enumeration Documentation}
+\Hypertarget{class_shot_a7b3c004dc3d60037797c74ce9d513572}\label{class_shot_a7b3c004dc3d60037797c74ce9d513572} 
+\index{Shot@{Shot}!Impact@{Impact}}
+\index{Impact@{Impact}!Shot@{Shot}}
+\doxysubsubsection{\texorpdfstring{Impact}{Impact}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{class_shot_a7b3c004dc3d60037797c74ce9d513572}{Shot\+::\+Impact}}}
+
+
+
+Enum representing the impact of a shot. 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{NONE@{NONE}!Shot@{Shot}}\index{Shot@{Shot}!NONE@{NONE}}}\Hypertarget{class_shot_a7b3c004dc3d60037797c74ce9d513572a3a4bbd748aa379fa00cef475edaf7803}\label{class_shot_a7b3c004dc3d60037797c74ce9d513572a3a4bbd748aa379fa00cef475edaf7803} 
+NONE&No impact. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{HIT@{HIT}!Shot@{Shot}}\index{Shot@{Shot}!HIT@{HIT}}}\Hypertarget{class_shot_a7b3c004dc3d60037797c74ce9d513572aa8191049dd5ccb7335c9d45a2c11efce}\label{class_shot_a7b3c004dc3d60037797c74ce9d513572aa8191049dd5ccb7335c9d45a2c11efce} 
+HIT&Hit on a ship. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SUNKEN@{SUNKEN}!Shot@{Shot}}\index{Shot@{Shot}!SUNKEN@{SUNKEN}}}\Hypertarget{class_shot_a7b3c004dc3d60037797c74ce9d513572ab16a58efaa329423a263775e79735fc6}\label{class_shot_a7b3c004dc3d60037797c74ce9d513572ab16a58efaa329423a263775e79735fc6} 
+SUNKEN&\doxylink{class_ship}{Ship} has been sunken. \\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_shot_a9c85916876bda299a088bde1b5483bb9}\label{class_shot_a9c85916876bda299a088bde1b5483bb9} 
+\index{Shot@{Shot}!Shot@{Shot}}
+\index{Shot@{Shot}!Shot@{Shot}}
+\doxysubsubsection{\texorpdfstring{Shot()}{Shot()}}
+{\footnotesize\ttfamily Shot\+::\+Shot (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_grid_position}{Grid\+Position}}}]{target\+Position }\end{DoxyParamCaption})}
+
+
+
+Constructor for the \doxylink{class_shot}{Shot} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em target\+Position} & The target position of the shot. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_shot_a9c3437fd84fa6178a5191ea040e7d837}\label{class_shot_a9c3437fd84fa6178a5191ea040e7d837} 
+\index{Shot@{Shot}!````~Shot@{\texorpdfstring{$\sim$}{\string~}Shot}}
+\index{````~Shot@{\texorpdfstring{$\sim$}{\string~}Shot}!Shot@{Shot}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Shot()}{\string~Shot()}}
+{\footnotesize\ttfamily Shot\+::\texorpdfstring{$\sim$}{\string~}\+Shot (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Destructor for the \doxylink{class_shot}{Shot} class. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_shot_a8eeca9f93c72b7b63f529ee529a36d13}\label{class_shot_a8eeca9f93c72b7b63f529ee529a36d13} 
+\index{Shot@{Shot}!getTargetPosition@{getTargetPosition}}
+\index{getTargetPosition@{getTargetPosition}!Shot@{Shot}}
+\doxysubsubsection{\texorpdfstring{getTargetPosition()}{getTargetPosition()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_grid_position}{Grid\+Position}} Shot\+::get\+Target\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the target position of the shot. 
+
+\begin{DoxyReturn}{Returns}
+The target position of the shot. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_shot_a6def512fa017c118a8adcf8d32f4dd3d}\label{class_shot_a6def512fa017c118a8adcf8d32f4dd3d} 
+\index{Shot@{Shot}!targetPosition@{targetPosition}}
+\index{targetPosition@{targetPosition}!Shot@{Shot}}
+\doxysubsubsection{\texorpdfstring{targetPosition}{targetPosition}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_grid_position}{Grid\+Position}} Shot\+::target\+Position\hspace{0.3cm}{\ttfamily [private]}}
+
+The target position of the shot. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+my\+Code/\mbox{\hyperlink{_shot_8h}{Shot.\+h}}\item 
+my\+Code/\mbox{\hyperlink{_shot_8cpp}{Shot.\+cpp}}\end{DoxyCompactItemize}
